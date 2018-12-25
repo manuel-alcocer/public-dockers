@@ -12,8 +12,8 @@ services:
       - "4672:4672/udp"
       - "4711:4711/tcp"
     volumes:
-      - /mnt/hitachi1T/amuledock/Incoming:/var/lib/amule/.aMule/Incoming
-      - /mnt/hitachi1T/amuledock/Temp:/var/lib/amule/.aMule/Temp
+      - /mnt/amuledock/Incoming:/var/lib/amule/.aMule/Incoming
+      - /mnt/amuledock/Temp:/var/lib/amule/.aMule/Temp
     environment:
       - ECPASSWORD=alcocer.1234
       - WEBPASSWORD=alcocer.1234
